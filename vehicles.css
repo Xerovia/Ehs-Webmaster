@@ -1,0 +1,45 @@
+/* Page Styling */
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+/* Styling for the nav bar */
+ul{
+    padding: 0;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+    font-size: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(60, 0, 85);
+    font-size: 45px;
+}
+
+.nav{
+    text-align: center;
+}
+
+/* Main Paragraph? Styling */
+.body-para{
+    font-size: 30px;
+}
