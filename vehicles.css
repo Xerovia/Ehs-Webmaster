@@ -13,6 +13,8 @@ li{
     vertical-align: middle;
     font-size: 40px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 a {
@@ -25,7 +27,6 @@ a:link, a:visited {
 
 a:hover {
     color: rgb(27, 0, 179);
-    font-size: 45px;
 }
 
 .nav{
@@ -86,7 +87,6 @@ body{
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: rgb(255, 255, 255);
-    font-size: 45px;
     color: rgb(27, 0, 179);
   }
   
