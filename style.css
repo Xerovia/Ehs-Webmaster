@@ -1,0 +1,140 @@
+/* Styling for the nav bar */
+ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(86, 0, 161);
+}
+
+.nav {
+    text-align: center;
+}
+
+/* Body Styling */
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+   /* Testing footer css */
+  
+   #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    background: none;
+    text-align: center;
+}
+
+/* Image hover */
+* {box-sizing: border-box;}
+
+.img-container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+/*officer images on about us*/
+.off-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/*teacher images on about us*/
+.teach-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/*about us text styling*/
+.mission-motto {
+    margin: 25px 70px 25px 70px;
+    display: block;
+}
+
+/*about us text/pic side-by-side setup aka the death of Hannah*/
+    .container {
+        width: 1100px;
+        display: flex;
+        align-items: top;
+        margin: 0px 70px 70px 70px;
+    }
+    
+    .container img {
+        width: 200px;
+        margin-right: 20 px;
+    }
+    
+    .container h4, h5, p {
+        margin: 0px 20px 0px 20px;
+    }
+    
+/*about us headings styling*/
+.aboutUsHeading {
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+/*packages section headings (ie Moon, Mars, etc)*/
+.secHeadingsPacks {
+    font-size: 30px;
+    color: tbd;
+}
+
+/*mission and motto on about us styling*/
