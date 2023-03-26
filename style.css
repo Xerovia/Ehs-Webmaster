@@ -102,7 +102,7 @@
       padding: 0;
       list-style-type: none;
       font-size: 25px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: SF Pro Text, Arial, Helvetica, sans-serif;
       position: relative;
   }
   
@@ -136,7 +136,7 @@
   
   body {
       background-color: black;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'SF Pro Display';
       color: #ffffff;
   }
   
