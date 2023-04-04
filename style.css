@@ -40,7 +40,6 @@
 .subscribe-wrapper:after {
   position: absolute;
   content: "";
-  right: -10px;
   bottom: 71px;
   width: 0;
   height: 0;
