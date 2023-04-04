@@ -98,49 +98,69 @@
   }
   
   /* Styling for the nav bar */
+  
   ul {
       padding: 0;
       list-style-type: none;
       font-size: 25px;
       font-family: 'SF Pro L', sans-serif;
       position: relative;
+      
   }
   
   li {
       display: inline-block;
       margin: 0 20px 0 0;
       vertical-align: middle;
-      font-size: 40px;
-      text-align: center;
+      font-size: 31px !important;
+      text-align: left;
       padding-left: 10px;
       padding-right: 10px;
+      
   }
   
-  a {
+  .navbar a{
       text-decoration: none;
+      border-radius: 7px;
+
+    padding: 0px 5px !important;
+    padding: 0;
+
+    transition: none;
   }
   
-  a:link, a:visited {
+  .navbar a:link, a:visited {
       color: white;
   }
   
-  a:hover {
+  .navbar a:hover {
       color: rgb(86, 0, 161);
+      background-color: white;
   }
   
   .nav {
-      text-align: center;
+      text-align: left;
   }
   
   /* Body Styling */
   
   body {
       background-color: black;
-      font-family: 'SF Pro Display', sans-serif;
+      font-family: SF Pro R, sans-serif;
       color: #ffffff;
   }
   
+  h1{
+    font-family: SF Pro L, sans-serif;
+  }
   
+  h2{
+    font-family: SF Pro L, sans-serif;
+  }
+  
+  h3{
+    font-family: SF Pro L, sans-serif;
+  }
      /* Testing footer css */
     
      #footer {
@@ -254,4 +274,13 @@
   @font-face {
     font-family: SF Pro L;
     src: url("SFPRODISPLAYMEDIUM.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: SF Pro R;
+  src: url("SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+.socials-imgs a{
+  padding: none;
 }
