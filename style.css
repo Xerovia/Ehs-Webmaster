@@ -61,16 +61,17 @@
   position: absolute;
   bottom: 30px;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #FFF;
   padding: 10px;
   width: 65%;
   background: transparent;
   transition: all .25s ease;
+  caret-color: #FFF;
 }
 
 .subscribe-wrapper input:focus {
   outline: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #FFF;
 }
 
 .subscribe-wrapper .submit-btn {
