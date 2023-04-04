@@ -102,7 +102,7 @@
       padding: 0;
       list-style-type: none;
       font-size: 25px;
-      font-family: SF Pro Text, Arial, Helvetica, sans-serif;
+      font-family: 'SF Pro L', sans-serif;
       position: relative;
   }
   
@@ -136,7 +136,7 @@
   
   body {
       background-color: black;
-      font-family: 'SF Pro Display';
+      font-family: 'SF Pro Display', sans-serif;
       color: #ffffff;
   }
   
@@ -250,3 +250,8 @@
   .vehic-heads {
       margin-left: 20px;
   }
+  
+  @font-face {
+    font-family: SF Pro L;
+    src: url("SFPRODISPLAYMEDIUM.OTF") format("opentype");
+}
