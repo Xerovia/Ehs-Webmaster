@@ -283,17 +283,21 @@
 
 /*margin styling*/
 .para {
-     margin: 10px 70px 0px 70px;
-  }
+    margin: 10px 70px 0px 70px;
+}
   
  .heads {
-     margin: 25px 70px 0px 70px;
+    margin: 25px 70px 0px 70px;
  }
  
  .important-para {
-     margin: 25px 70px 0px 70px;
-     font-size: 20px;
+    margin: 25px 70px 0px 70px;
+    font-size: 20px;
  }
+ 
+ .stacked-para {
+    margin: 10px 70px 0px 70px;
+  }
  
  /*packages lists styling*/
  .packs-list {
@@ -321,3 +325,30 @@
       padding-right: 10px;
       
   }
+  
+  .training-footer p{
+    font-size: 12px;
+  }
+  
+  .training-footer h2{
+    font-size: 20px;
+  }
+  
+  .training-footer{
+    background-color: #212121;
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+  
+  .training-body{
+    padding-bottom: 10px;
+  }
+  
+  /*document library styling*/
+  .doc-lib-list {
+    margin: 10px 70px 0px 70px;
+}
+
+.doc-lib-link {
+    color: CornflowerBlue;
+}
