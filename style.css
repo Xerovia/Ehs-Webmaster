@@ -136,6 +136,8 @@
   
   .nav {
       text-align: left;
+      border-bottom: #333;
+      border-bottom-style: solid;
   }
   
   /* Body Styling */
@@ -143,6 +145,7 @@
       background-color: black;
       font-family: SF Pro R, sans-serif;
       color: #ffffff;
+      margin-top: none;
   }
   
   h1 {
@@ -336,12 +339,14 @@
   
   .training-footer{
     background-color: #212121;
-    padding-top: 1px;
-    padding-bottom: 10px;
+    padding-top: -10px;
+    padding-bottom: 25px;
+    border-top: #cccccc;
+    border-top-style: solid;
   }
   
   .training-body{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   
   /*document library styling*/
