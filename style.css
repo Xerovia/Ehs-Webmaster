@@ -1,6 +1,15 @@
 /*Styling for primarily Index Page*/
 
 /*index page footer*/
+.social-footer{
+    background-color:#2F1931;
+}
+.footer-text-i{
+    text-align:center;
+}
+
+
+/*social media and email portal*/
 .parent-wrapper {
   position: relative;
   width: 400px;
@@ -96,8 +105,28 @@
   background-color: #a77cf4;
   text-decoration-color: #333;
 }
-  
+
+.social-image1{
+    margin-left: 300px 0px 0px 
+}
+.social-image2{
+    margin-left: 500px 0px 0px 
+}
+.social-image3{
+    margin-left: 700px 0px 0px 
+}
+.social-image4{
+    margin-left: 900px 0px 0px 
+}
+
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+      background-color: green;
+      border: 2px solid #4CAF50; 
   /* Styling for the nav bar */
+  
+  }
   .nav ul {
       padding: 0;
       list-style-type: none;
@@ -135,9 +164,13 @@
   }
   
   .nav {
-      text-align: left;
-      border-bottom: #333;
-      border-bottom-style: solid;
+      
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+      background-color: #2F193;
+      border: 2px solid #451fcf; 
+      text-align: center;
   }
   
   /* Body Styling */
@@ -145,7 +178,6 @@
       background-color: black;
       font-family: SF Pro R, sans-serif;
       color: #ffffff;
-      margin-top: none;
   }
   
   h1 {
@@ -330,23 +362,21 @@
   }
   
   .training-footer p{
-    font-size: 12px;
+    font-size: 16px;
   }
   
   .training-footer h2{
-    font-size: 20px;
+    font-size: 25px;
   }
   
   .training-footer{
     background-color: #212121;
-    padding-top: -10px;
-    padding-bottom: 25px;
-    border-top: #cccccc;
-    border-top-style: solid;
+    padding-top: 1px;
+    padding-bottom: 10px;
   }
   
   .training-body{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   
   /*document library styling*/
@@ -357,3 +387,58 @@
 .doc-lib-link {
     color: CornflowerBlue;
 }
+/*Process footer css*/
+      .process-footer{
+          background-color: #2F1931;
+      }
+      .form {
+      border: 5px solid #f1f1f1;
+      }
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+      .icon {
+      font-size: 110px;
+      display: flex;
+      justify-content: center;
+      color: #4286f4;
+      }
+      button{
+      background-color: #4286f4;
+      color: white;
+      padding: 14px 0;
+      margin: 10px 0;
+      border: none;
+      cursor: grab;
+      width: 48%;
+      }
+      .request-info{
+      text-align:center;
+      fone-size:18;
+      }
+      button:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: center;
+      margin: 24px 50px 12px;
+      }
+      .container {
+      padding: 16px 0;
+      text-align:left;
+      }
+      span.psw {
+      float: right;
+      padding-top: 0;
+      padding-right: 15px;
+      }
+      /* Change styles for span on extra small screens */
+      @media screen and (max-width: 300px) {
+      span.psw {
+      display: block;
+      float: none;
