@@ -203,7 +203,7 @@
  }
  
  .stacked-para {
-    margin: 10px 70px 0px 70px;
+    margin: 10px 70px 10px 10px;
   }
  
  /*packages lists styling*/
@@ -318,9 +318,7 @@
       }
       
       /*index page footer*/
-.social-footer{
-  background-color:#2F1931;
-}
+
 .footer-text-i{
   text-align:center;
 }
@@ -434,4 +432,26 @@ text-decoration-color: #333;
 }
 .social-image4{
   margin-left: 900px 0px 0px 
+}
+
+.process-image{
+  max-width: 25%;
+  min-width: 10%;
+  max-height: 25%;
+  min-height: 10%;
+  margin-left: 35%;
+}
+
+.process-legal p{
+  font-size: 12px;
+}
+
+.process-legal h2{
+  font-size: 25px;
+}
+
+.process-legal{
+  background-color: #212121;
+  padding-top: 1px;
+  padding-bottom: 9px;
 }

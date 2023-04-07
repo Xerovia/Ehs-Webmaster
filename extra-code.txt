@@ -1,0 +1,18 @@
+<footer class="process-footer">
+        <form action="/action_page.php">
+      <h1 class="request-info">Request Information</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="uname"><strong>Name</strong></label>
+        <input type="text" placeholder="Enter Full Name" name="uname" required>
+        <label for="mail"><strong>E-mail</strong></label>
+        <input type="text" placeholder="Enter E-mail" name="mail" required>
+        <label for="psw"><strong>Phone Number</strong></label>
+        <input type="password" placeholder="Enter Phone #" name="psw" required>
+      </div>
+      <button type="submit"><strong>Send</strong></button>
+    </form>
+    </footer>
