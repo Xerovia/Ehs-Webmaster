@@ -440,18 +440,28 @@ text-decoration-color: #333;
   max-height: 25%;
   min-height: 10%;
   margin-left: 35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .process-legal p{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .process-legal h2{
   font-size: 25px;
 }
 
-.process-legal{
+.process-legal {
   background-color: #212121;
   padding-top: 1px;
   padding-bottom: 9px;
+}
+
+.process-legal p{
+  margin: 10px 70px 0px 70px;
+}
+
+.billing-bullets {
+  margin: 10px 70px 0px 70px;
 }
