@@ -391,6 +391,7 @@ width: 65%;
 background: transparent;
 transition: all .25s ease;
 caret-color: #FFF;
+color: #ffffff;
 }
 
 .subscribe-wrapper input:focus {
