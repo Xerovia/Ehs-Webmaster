@@ -281,13 +281,10 @@
       color: #4286f4;
       }
       button{
-      background-color: #4286f4;
       color: white;
-      padding: 14px 0;
-      margin: 10px 0;
       border: none;
       cursor: grab;
-      width: 48%;
+      background-color: rgba(0, 0, 0, 0);
       }
       .request-info{
       text-align:center;
@@ -387,11 +384,12 @@ bottom: 30px;
 border: none;
 border-bottom: 1px solid #FFF;
 padding: 10px;
-width: 65%;
+width: 50%;
 background: transparent;
 transition: all .25s ease;
 caret-color: #FFF;
 color: #ffffff;
+padding-right: 10%;
 }
 
 .subscribe-wrapper input:focus {
