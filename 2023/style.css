@@ -203,8 +203,8 @@
  }
  
  .stacked-para {
-    margin: 10px 70px 10px 10px;
-  }
+  margin: 10px 70px 0px 70px;
+}
  
  /*packages lists styling*/
  .packs-list {
@@ -261,7 +261,8 @@
 }
 /*Process footer css*/
       .process-footer{
-          background-color: #2F1931;
+          background-color: #212121;
+          padding-top: 10px;
       }
       .form {
       border: 5px solid #f1f1f1;
@@ -464,3 +465,4 @@ text-decoration-color: #333;
 .billing-bullets {
   margin: 10px 70px 0px 70px;
 }
+

@@ -5,7 +5,7 @@
         <i class="fas fa-user-circle"></i>
       </div>
       <div class="formcontainer">
-      <div class="container">
+      <div class="request-container">
         <label for="uname"><strong>Name</strong></label>
         <input type="text" placeholder="Enter Full Name" name="uname" required>
         <label for="mail"><strong>E-mail</strong></label>
@@ -16,3 +16,449 @@
       <button type="submit"><strong>Send</strong></button>
     </form>
     </footer>
+</body>
+</html>
+    
+    /*Styling for primarily Index Page*/
+
+/*index page footer*/
+.social-footer{
+    background-color: #665f85;
+}
+.footer-text-i{
+    text-align:center;
+}
+
+
+/*social media and email portal*/
+.parent-wrapper {
+  position: relative;
+  width: 400px;
+  height: 270px;
+  margin: 40px auto 0;
+  background-image: url('http://www.imgbase.info/images/safe-wallpapers/digital_art/1_miscellaneous_digital_art/41750_1_miscellaneous_digital_art_simple_dark_shapes.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -600%;
+  background-color: #000;
+  border-radius: 4px;
+  color: #FFF;
+}
+
+.close-btn {
+  margin: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.subscribe-wrapper {
+  position: absolute;
+  left: -30px;
+  right: -30px;
+  height: 200px;
+  padding: 30px;
+  background-position-x: 272%;
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-color: #333;
+  border-radius: 4px;
+  color: #333;
+}
+
+.subscribe-wrapper:after {
+  position: absolute;
+  content: "";
+  bottom: 71px;
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid;
+}
+
+.subscribe-wrapper h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 28px;
+  color: #975cfe;
+}
+
+.subscribe-wrapper input {
+  position: absolute;
+  bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  padding: 10px;
+  width: 65%;
+  background: transparent;
+  transition: all .25s ease;
+  caret-color: #FFF;
+}
+
+.subscribe-wrapper input:focus {
+  outline: none;
+  border-bottom: 1px solid #FFF;
+}
+
+.subscribe-wrapper .submit-btn {
+  position: absolute;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;;
+  padding: 12px 25px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  right: -10px;
+  bottom: 30px;
+  cursor: pointer;
+  transition: all .25s ease;
+  background-color: #a77cf4;
+}
+
+.subscribe-wrapper .submit-btn:hover {
+  background-color: #a77cf4;
+  text-decoration-color: #333;
+}
+/*fix*/
+.social-icon1{
+   margin-left:150px;
+   margin-right:
+   
+}
+.social-icon2{
+    margin: 500px 0px 0px 
+}
+.social-icon3{
+    margin: 700px 0px 0px 
+}
+.social-icon4{
+    margin: 900px 0px 0px 
+}
+  /* Styling for the nav bar */
+  
+  }
+  .nav ul {
+      padding: 0;
+      list-style-type: none;
+      font-size: 25px;
+      font-family: 'SF Pro L', sans-serif;
+      position: relative;
+  }
+  
+  .nav li {
+      display: inline-block;
+      margin: 0 20px 0 0;
+      vertical-align: middle;
+      font-size: 31px !important;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  .navbar a{
+      text-decoration: none;
+      border-radius: 4px;
+      padding: 0px 5px !important;
+      padding: 0;
+      transition: none;
+      opacity:75%;
+  }
+  
+  .navbar a:link, a:visited {
+      color: white;
+  }
+  
+  .navbar a:hover {
+      opacity:100%;
+      
+  }
+  
+  .nav {
+      position: -webkit-sticky; /* for Safari */
+      position: sticky;
+      top: 0;
+      background-color: #02000a;
+      border: 1px solid #02000a; 
+      text-align: center;
+  }
+  
+  /* Body Styling */
+  body {
+      background-color: black;
+      font-family: SF Pro R, sans-serif;
+      color: #ffffff;
+  }
+  
+  h1 {
+    font-family: SF Pro L, sans-serif;
+  }
+  
+  h2 {
+    font-family: SF Pro L, sans-serif;
+  }
+  
+  h3 {
+    font-family: SF Pro L, sans-serif;
+  }
+  
+  hr {
+      margin: 20px ;
+  }
+  
+/* Testing footer css */
+    
+     #footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      /* Height of the footer*/
+      height: 40px;
+      background: none;
+      text-align: center;
+  }
+  
+  /* Image hover */
+  * {box-sizing: border-box;}
+  
+  .img-container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .img-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  /*officer images on about us*/
+  .off-img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      outline: 5px ridge white;
+  }
+  
+  /*teacher images on about us*/
+  .teach-img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      outline: 5px ridge white;
+  }
+  
+  /*about us text styling*/
+  .mission-motto {
+      margin: 25px 70px 25px 70px;
+      display: block;
+  }
+  
+  /*about us text/pic side-by-side setup*/
+      .container {
+          width: 1100px;
+          display: flex;
+          align-items: top;
+          margin: 0px 70px 70px 70px;
+      }
+      
+      .container img {
+          width: 200px;
+          margin-right: 20 px;
+      }
+      
+      .container h4, h5, p {
+          margin: 0px 20px 0px 20px;
+      }
+      
+  /*about us headings styling*/
+  .aboutUsHeading {
+      font-size: 40px;
+      margin-left: 70px;
+  }
+  
+  /*packages section headings (ie Moon, Mars, etc)*/
+  .secHeadingsPacks {
+      font-size: 30px;
+      color: tbd;
+  }
+  
+  /*vehicles styling*/
+  .vehic-img {
+      max-width:200px;
+      max-height:200px;
+      width: auto;
+      height: auto;
+      margin: 40px 70px 0px 70px;
+  }
+  
+  @font-face {
+    font-family: SF Pro L;
+    src: url("https://codehs.com/uploads/b096831f1b59b38eed45533dc8d91137") format("opentype");
+  }
+
+@font-face {
+  font-family: SF Pro R;
+  src: url("https://codehs.com/uploads/6e0485f9e526676d5dbe4c72c70a1dd0.OTF") format("opentype");
+}
+
+.socials-imgs a{
+  padding: none;
+}
+
+/*margin styling*/
+.para {
+    margin: 10px 70px 0px 70px;
+}
+  
+ .heads {
+    margin: 25px 70px 0px 70px;
+ }
+ 
+ .important-para {
+    margin: 25px 70px 0px 70px;
+    font-size: 20px;
+ }
+ 
+ .stacked-para {
+    margin: 10px 70px 0px 70px;
+  }
+ 
+ /*packages lists styling*/
+ .packs-list {
+     margin: 10px 70px 0px 70px;
+     font-size: 16px;
+ }
+ 
+ /*Socials Li and Ul tags*/
+  .social-buttons ul {
+      padding: 0;
+      list-style-type: none;
+      font-size: 25px;
+      font-family: 'SF Pro L', sans-serif;
+      position: relative;
+      
+  }
+  
+  .social-buttons li {
+      display: inline-block;
+      margin: 0 20px 0 0;
+      vertical-align: middle;
+      font-size: 31px !important;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+  }
+  
+  .training-footer p{
+    font-size: 16px;
+  }
+  
+  .training-footer h2{
+    font-size: 25px;
+  }
+  
+  .training-footer{
+    background-color: #665f85;
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+  
+  .training-body{
+    padding-bottom: 10px;
+  }
+  
+  /*document library styling*/
+  .doc-lib-list {
+    margin: 10px 70px 0px 70px;
+}
+
+.doc-lib-link {
+    color: CornflowerBlue;
+}
+/*Process CSS*/
+.spaceman-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+    width: 50%;
+}
+/*Process footer css*/
+      .process-footer{
+          background-color: #665f85;
+      }
+      .form {
+      border: 5px solid #f1f1f1;
+      }
+      input[type=text], {
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+      .icon {
+      font-size: 110px;
+      display: flex;
+      justify-content: center;
+      color: #4286f4;
+      }
+      button{
+      background-color: #414047;
+      color: white;
+      padding: 14px 0;
+      margin: 10px 0;
+      border: none;
+      cursor: grab;
+      width: 48%;
+      }
+      .request-info{
+      text-align:center;
+      fone-size:18;
+      }
+      button:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: center;
+      margin: 24px 50px 12px;
+      }
+      .request-container {
+      padding: 16px 15px 0px 0px;
+      text-align:center;
+      }
+      span.psw {
+      float: right;
+      }
+      /* Change styles for span on extra small screens */
+      @media screen and (max-width: 300px) {
+      span.psw {
+      display: block;
+      float: none;
+      }
