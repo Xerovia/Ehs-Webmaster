@@ -263,6 +263,7 @@
       .process-footer{
           background-color: #212121;
           padding-top: 10px;
+          padding-bottom: 10px;
       }
       .form {
       border: 5px solid #f1f1f1;
@@ -315,6 +316,14 @@
       float: none;
       }
       
+      .send-button p{
+        font-size: 20px;
+        background-color: #424242;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
       /*index page footer*/
 
 .footer-text-i{
