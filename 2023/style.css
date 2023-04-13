@@ -27,7 +27,7 @@
     padding: 0px 5px !important;
     padding: 0;
     transition: none;
-    opacity:75%;
+    opacity:75;
 }
 
 .navbar a:link, a:visited {
@@ -162,7 +162,6 @@
   /*packages section headings (ie Moon, Mars, etc)*/
   .secHeadingsPacks {
       font-size: 30px;
-      color: tbd;
   }
   
   /*vehicles styling*/
@@ -290,7 +289,7 @@
       }
       .request-info{
       text-align:center;
-      font-size:18;
+      font-size:18px;
       }
       button:hover {
       opacity: 0.8;
@@ -431,16 +430,16 @@ text-decoration-color: #333;
 }
 
 .social-image1{
-  margin-left: 300px 0px 0px 
+  margin-left: 300px 0px 0px ;
 }
 .social-image2{
-  margin-left: 500px 0px 0px 
+  margin-left: 500px 0px 0px ;
 }
 .social-image3{
-  margin-left: 700px 0px 0px 
+  margin-left: 700px 0px 0px ;
 }
 .social-image4{
-  margin-left: 900px 0px 0px 
+  margin-left: 900px 0px 0px ;
 }
 
 .process-image{
