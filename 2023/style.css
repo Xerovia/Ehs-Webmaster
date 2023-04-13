@@ -36,7 +36,7 @@
 
 .navbar a:hover {
     opacity:100%;
-    
+
 }
 
 .nav {
@@ -51,25 +51,25 @@
       font-family: SF Pro R, sans-serif;
       color: #ffffff;
   }
-  
+
   h1 {
     font-family: SF Pro L, sans-serif;
   }
-  
+
   h2 {
     font-family: SF Pro L, sans-serif;
   }
-  
+
   h3 {
     font-family: SF Pro L, sans-serif;
   }
-  
+
   hr {
       margin: 20px ;
   }
-  
+
 /* Testing footer css */
-    
+
      #footer {
       position: fixed;
       bottom: 0;
@@ -79,28 +79,28 @@
       background: none;
       text-align: center;
   }
-  
+
   /* Image hover */
   * {box-sizing: border-box;}
-  
+
   .img-container {
     position: relative;
     width: 50%;
     max-width: 300px;
   }
-  
+
   .image {
     display: block;
     width: 100%;
     height: auto;
   }
-  
+
   .overlay {
-    position: absolute; 
-    bottom: 0; 
+    position: absolute;
+    bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1; 
+    color: #f1f1f1;
     width: 100%;
     transition: .5s ease;
     opacity:0;
@@ -109,11 +109,11 @@
     padding: 20px;
     text-align: center;
   }
-  
+
   .img-container:hover .overlay {
     opacity: 1;
   }
-  
+
   /*officer images on about us*/
   .off-img {
       width: 200px;
@@ -121,7 +121,7 @@
       object-fit: contain;
       outline: 5px ridge white;
   }
-  
+
   /*teacher images on about us*/
   .teach-img {
       width: 200px;
@@ -129,13 +129,13 @@
       object-fit: contain;
       outline: 5px ridge white;
   }
-  
+
   /*about us text styling*/
   .mission-motto {
       margin: 25px 70px 25px 70px;
       display: block;
   }
-  
+
   /*about us text/pic side-by-side setup*/
       .container {
           width: 1100px;
@@ -143,27 +143,27 @@
           align-items: top;
           margin: 0px 70px 70px 70px;
       }
-      
+
       .container img {
           width: 200px;
-          margin-right: 20 px;
+          margin-right: 20px;
       }
-      
+
       .container h4, h5, p {
           margin: 0px 20px 0px 20px;
       }
-      
+
   /*about us headings styling*/
   .aboutUsHeading {
       font-size: 40px;
       margin-left: 70px;
   }
-  
+
   /*packages section headings (ie Moon, Mars, etc)*/
   .secHeadingsPacks {
       font-size: 30px;
   }
-  
+
   /*vehicles styling*/
   .vehic-img {
       max-width:200px;
@@ -172,7 +172,7 @@
       height: auto;
       margin: 40px 70px 0px 70px;
   }
-  
+
   @font-face {
     font-family: SF Pro L;
     src: url("https://codehs.com/uploads/b096831f1b59b38eed45533dc8d91137") format("opentype");
@@ -184,33 +184,33 @@
 }
 
 .socials-imgs a{
-  padding: none;
+  padding: 0px;
 }
 
 /*margin styling*/
 .para {
     margin: 10px 70px 0px 70px;
 }
-  
+
  .heads {
     margin: 25px 70px 0px 70px;
  }
- 
+
  .important-para {
     margin: 25px 70px 0px 70px;
     font-size: 20px;
  }
- 
+
  .stacked-para {
   margin: 10px 70px 0px 70px;
 }
- 
+
  /*packages lists styling*/
  .packs-list {
      margin: 10px 70px 0px 70px;
      font-size: 16px;
  }
- 
+
  /*Socials Li and Ul tags*/
   .social-buttons ul {
       padding: 0;
@@ -218,9 +218,9 @@
       font-size: 25px;
       font-family: 'SF Pro L', sans-serif;
       position: relative;
-      
+
   }
-  
+
   .social-buttons li {
       display: inline-block;
       margin: 0 20px 0 0;
@@ -229,27 +229,27 @@
       text-align: left;
       padding-left: 10px;
       padding-right: 10px;
-      
+
   }
-  
+
   .training-footer p{
     font-size: 16px;
   }
-  
+
   .training-footer h2{
     font-size: 25px;
   }
-  
+
   .training-footer{
     background-color: #212121;
     padding-top: 1px;
     padding-bottom: 10px;
   }
-  
+
   .training-body{
     padding-bottom: 10px;
   }
-  
+
   /*document library styling*/
   .doc-lib-list {
     margin: 10px 70px 0px 70px;
@@ -314,7 +314,7 @@
       display: block;
       float: none;
       }
-      
+
       .send-button p{
         font-size: 20px;
         background-color: #424242;
@@ -473,4 +473,3 @@ text-decoration-color: #333;
 .billing-bullets {
   margin: 10px 70px 0px 70px;
 }
-
