@@ -477,3 +477,7 @@ text-decoration-color: #333;
 .bottom-para {
   margin: 10px 70px 20px 70px
 }
+
+p .doc-lib-link{
+  color: cornflowerblue;
+}
