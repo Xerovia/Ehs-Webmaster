@@ -481,3 +481,17 @@ text-decoration-color: #333;
 p .doc-lib-link{
   color: cornflowerblue;
 }
+
+.packs-img-plan {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+.packs-img-sys {
+  width: 500px;
+  height:300px
+  object-fit: contain;
+  margin-left: 70px;
+}
