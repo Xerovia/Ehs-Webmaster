@@ -27,7 +27,7 @@
     padding: 0px 5px !important;
     padding: 0;
     transition: none;
-    opacity:75;
+    opacity:75%;
 }
 
 .navbar a:link, a:visited {
